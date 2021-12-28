@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    background-color: rgba(1, 2, 2, 0.918);
+  }
+  .main-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 20px 2rem;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(247, 244, 244);
+  }
+  .title-box{
+    padding: 0 2rem 0 0;
+    display: flex;
+    align-items:baseline;
+    justify-content: flex-start;
+    gap:.5rem;
+  }
+  .button-box button{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    /* transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12); */
+  }
+  #signup{
+    background-color: rgb(245, 252, 154);
+    color: rgb(28, 29, 31);
+    border: none;
+    border-radius: .3rem;
+  }
+  #signup:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgb(112, 71, 71);
+  }
+  
+  
+  .title-box>p{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+  }
+  .editor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem 2rem 2rem;
+  }
+  
+  textarea{
+    width: 95%;
+    max-width: 95%;
+    height: 95%;
+    background-color: rgb(36, 41, 38);
+    border-radius: .3rem;
+    color: rgb(233, 64, 22);
+    padding: 10px;
+    outline: none;
+    resize: none;
+  }
+  
+  .editor-type{
+    flex: 1 1 24rem;
+    height: 360px;
+  }
+  .title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: .5rem;
+  }
+  .title>p{
+    padding: 10px ;
+    margin: 0;
+    color: white;
+    border: 2px solid rgb(36, 41, 38);
+    background-color: rgb(36, 41, 38);
+  }
+  
+  .result{
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+    padding: 0rem 2rem;
+    height: 260px;
+  }
+  
+  #output{
+    width: 100%;
+    height: auto;
+  }
+  
+  iframe{
+    background-color: rgb(190, 189, 189);
+    border: none;
+  }
+
+  
